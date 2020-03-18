@@ -157,7 +157,7 @@ h4.widget-title {
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     backface-visibility: hidden;
-    -moz-transform: translateZ(0);
+    transform: translateZ(0);
     -webkit-transform: translateZ(0)
 }
 
@@ -1324,9 +1324,7 @@ body {
     font-size: 18px;
 }
 
-.fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-product-buttons a,
-.fusion-rollover-linebreak,
-.product-buttons a {}
+
 
 .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-product-buttons a,
 .product-buttons a {
@@ -4174,7 +4172,7 @@ input[type=url],
 input[type=week],
 textarea {
     -webkit-appearance: none;
-    -webkit-border-radius: 0
+    border-radius: 0
 }
 
 body {
@@ -4413,7 +4411,7 @@ iframe {
 .fusion-header-v4 .fusion-header,
 .fusion-header-v5 .fusion-header,
 .fusion-header-v7 .fusion-header {
-    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
     -moz-transform: none
 }
 
@@ -5109,8 +5107,7 @@ table {
 
     .ubermenu-responsive-default.ubermenu-responsive.ubermenu-responsive-collapse {
         max-height: 0;
-        overflow: hidden !important;
-        visibility: hidden
+
     }
 
     .ubermenu-responsive-default.ubermenu-responsive.ubermenu-in-transition,
@@ -5683,7 +5680,7 @@ table {
 @media (max-width: 780px) {
     .socialiconmob {
         display: inline-block;
-        float: left;
+        float: none;
         clear: none !important;
         min-width: inherit !important;
         max-width: inherit !important;
