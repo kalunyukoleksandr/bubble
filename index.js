@@ -4,7 +4,7 @@ $(function ($) {
         $(".js-navigation").slideToggle();
     });
     setTimeout(() => {
-        $('#games').append(`
+        $('#game').append(`
         <iframe src="https://storage.googleapis.com/bubble_shooter_web/index.html"
                                               height="600" width="700" resize="both" overflow="auto" data-layertype="html"
                                               data-stylerecorder="true" class="bl"
